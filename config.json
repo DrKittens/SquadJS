@@ -52,6 +52,14 @@
       "ignoreAdmins": false,
       "ignoreWhitelist": false
     },
+	{
+      "plugin": "AutomaticSubsystemRestarter",
+      "enabled": true,
+      "restartRCON": true,
+      "restartLogParser": true,
+      "restartIntervalRCON": 1,
+      "restartIntervalLogParser": 1
+    },
     {
       "plugin": "AutoTKWarn",
       "enabled": true,
